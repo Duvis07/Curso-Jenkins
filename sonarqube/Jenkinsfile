@@ -3,7 +3,7 @@ node {
     myGradleContainer.pull()
 
     stage('Preparación') {
-        git branch: 'main', url: 'https://github.com/Duvis07/Curso-Jenkins.git'
+        git branch: 'main', url: 'https://github.com/Duvis07/gs-gradle.git'
     }
 
     stage('Construcción') {
